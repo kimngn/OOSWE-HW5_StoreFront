@@ -1,7 +1,9 @@
 public class Admin extends Employee {
 
 	private string admin_level;
-
+/**
+	*Logs the user into the system.
+*/
 	public void createUser() {
 		// TODO - implement Admin.createUser
 		throw new UnsupportedOperationException();
@@ -16,5 +18,6 @@ public class Admin extends Employee {
 		// TODO - implement Admin.generateReport
 		throw new UnsupportedOperationException();
 	}
+
 
 }
